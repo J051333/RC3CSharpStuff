@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CompetencyAssessment4/1.0.0": {
+        "runtime": {
+          "CompetencyAssessment4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompetencyAssessment4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
