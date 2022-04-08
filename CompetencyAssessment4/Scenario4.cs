@@ -6,19 +6,20 @@
         public static void RunScenario4() {
             double n = TakeNumericalInput("Please enter the number to evaluate: ", 5);
 
-            Console.WriteLine($"There are {CountDigits(n)} digits in {n}.");
+            Console.WriteLine($"There are {CountDigits(n.ToString(), 0)} digits in {n}.");
         }
 
-        // I'm taking the easy way out but I was too tired to think of the mathematical
-        // approach to this. I would have used the modulo and / 10 but that doesn't count
-        // decimals. The approach using TakeNumericalInput does ensure that n is a valid numeral though.
-        /// <summary>
-        /// Counts the number of digits in the given number.
-        /// </summary>
-        /// <param name="n"></param>
-        /// <returns></returns>
-        private static double CountDigits(double n) {
-            return n.ToString().Contains('.') ? n.ToString().Remove(n.ToString().IndexOf('.'), 1).Length : n.ToString().Length;
+        public static double CountDigits(String n, int counter) {
+            if (n == "") {
+                return counter;
+            }
+
+            if (n[0] != '.') {
+                counter++;
+            }
+
+            n = n.Remove(0, 1);
+            return CountDigits(n, counter);
         }
 
         /// <summary>
