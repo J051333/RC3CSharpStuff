@@ -30,6 +30,7 @@ namespace ASPMVCTutorial.Controllers {
             if (ModelState.IsValid) {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Created category successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -58,6 +59,7 @@ namespace ASPMVCTutorial.Controllers {
             if (ModelState.IsValid) {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Updated category successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -86,6 +88,7 @@ namespace ASPMVCTutorial.Controllers {
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Deleted category successfully";
             return RedirectToAction("Index");
         }
     }
