@@ -5,12 +5,12 @@ This is my project from learning ASP.NET Core with the model-view-controller arc
 I used the Vapor CSS from [bootswatches](https://bootswatch.com/) and toastr from [CodeSeven](https://github.com/CodeSeven/toastr)
 
 ## Home Page
-![home](https://imgur.com/3mrs8vj)
+![home](https://i.imgur.com/3mrs8vj)
 ## Category List
-![home](https://imgur.com/SUDPJWM)
+![home](https://i.imgur.com/SUDPJWM)
 ## Edit Category
-![home](https://imgur.com/fbmyScX)
+![home](https://i.imgur.com/fbmyScX)
 ## Delete Category
-![home](https://imgur.com/QiYxs2y)
+![home](https://i.imgur.com/QiYxs2y)
 ## Create Category
-![home](https://imgur.com/Gi0UOUE)
+![home](https://i.imgur.com/Gi0UOUE)
