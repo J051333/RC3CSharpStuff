@@ -1,0 +1,25 @@
+﻿body {
+    font-family: Calibri;
+    font-size: large;
+}
+
+div {
+    color: Red;
+}
+
+.block {
+    background-color: Yellow;
+    border-color: Blue;
+    border-width: thin;
+    border-style: outset;
+    font-family: Arial;
+}
+
+.centered {
+    color: deeppink; /*overrides the div's red*/
+    margin: auto;
+    width: 20%;
+    border: 3px dotted orange;
+    padding: 10px;
+    text-align: center;
+}
