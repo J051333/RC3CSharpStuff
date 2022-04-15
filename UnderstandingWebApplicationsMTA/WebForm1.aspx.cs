@@ -31,5 +31,9 @@ namespace UnderstandingWebApplicationsMTA {
             Session.Add("Name", TextBox1.Text);
             Response.Redirect("WebForm2.aspx");
         }
+
+        protected void ShowExamples_Click(object sender, EventArgs e) {
+            Response.Redirect("default.html");
+        }
     }
 }

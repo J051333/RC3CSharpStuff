@@ -7,17 +7,22 @@
     <title>WebForm1</title>
 </head>
 <body>
-    <% = DateTime.Now.ToShortDateString() %>
-
+    <br />
+    <% = "Date: " + DateTime.Now.ToShortDateString() %>
+    <br />
+    <br />
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server"
-                Text="Please enter your name: " /> 
-            <br />
-            <asp:TextBox ID="TextBox1" runat="server" />
-            <br />
-            <br />
-            <asp:Button ID="Button1" Text="Submit" runat="server" OnClick="Button1_Click" />
+            <h1>
+                <asp:Label ID="Label1" runat="server"
+                    Text="Please enter your name: " />
+                <br />
+                <asp:TextBox ID="TextBox1" runat="server" />
+                <br />
+                <br />
+                <asp:Button ID="Button1" Text="Submit" runat="server" OnClick="Button1_Click" />
+                <asp:Button ID="Examples" Text="View HTML, CSS, and JS Examples" runat="server" OnClick="ShowExamples_Click" />
+            </h1>
         </div>
     </form>
 </body>
