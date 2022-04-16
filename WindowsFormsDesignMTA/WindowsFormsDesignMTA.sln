@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsDesignMTA", "WindowsFormsDesignMTA.csproj", "{A30BF128-51EB-4812-9DF6-D27EF08B9BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDIApplicationMTA", "..\MDIApplicationMTA\MDIApplicationMTA.csproj", "{DEEC2339-0320-447A-BCF2-16D4B5455290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30BF128-51EB-4812-9DF6-D27EF08B9BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30BF128-51EB-4812-9DF6-D27EF08B9BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30BF128-51EB-4812-9DF6-D27EF08B9BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30BF128-51EB-4812-9DF6-D27EF08B9BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEC2339-0320-447A-BCF2-16D4B5455290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEC2339-0320-447A-BCF2-16D4B5455290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEC2339-0320-447A-BCF2-16D4B5455290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEC2339-0320-447A-BCF2-16D4B5455290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1E78290-D6C8-4B41-97E0-9B28806AC709}
+	EndGlobalSection
+EndGlobal
